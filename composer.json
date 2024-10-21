@@ -1,0 +1,23 @@
+{
+    "name": "futurelabs/searchable",
+    "description": "Eloquent model search trait updated to Laravel 6.",
+    "keywords": ["laravel", "eloquent", "search", "searchable", "database", "model"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mr.Web",
+            "email": "lombaffi@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0",
+        "illuminate/database": "4.2.x|~5.0|^6",
+        "ext-mbstring": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Nicolaslopezj\\Searchable\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
